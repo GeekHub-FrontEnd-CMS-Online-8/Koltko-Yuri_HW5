@@ -65,9 +65,14 @@ body {
     display: block;
     margin: 53px auto 0;
     max-width: 155px;
+    transition: all 500ms ease;
 }
 
-
+.button:hover {
+  color:#16a4fa;
+  border: 1px solid#ffffff;
+  
+} 
 
 .pointer__down {
 	
@@ -314,6 +319,7 @@ body {
     border-radius: 3px;
     margin-left: 325px;
     margin-top: 22px;
+    transition: all 500ms ease;
 }
 
 .contact_checkbox {
@@ -321,6 +327,12 @@ body {
     font-size: 15px;
     font-weight: 400;
     padding: 5px;
+}
+
+.send_button:hover {
+  color:#16a4fa;
+  border: 1px solid#ffffff;
+  
 }
 
 .work__text {
@@ -365,4 +377,22 @@ body {
 
 .icon__footer i {
     margin: 10px auto;
+}
+
+.facebook__icon:hover {
+    background-color: #4a67ad;
+}
+
+.twitter__icon:hover {
+    background-color: #fff;
+    color: #4ea0eb;
+    cursor: pointer;
+}
+
+.google__icon:hover {
+    background-color: #ca5546;
+}
+
+.linkedin__icon:hover {
+    background-color: #3373ae;
 }
